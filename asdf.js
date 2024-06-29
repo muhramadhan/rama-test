@@ -1,5 +1,5 @@
 var files = <?php $out = array();
-foreach (glob("file/*.html") as $filename) {
+foreach (glob("file/*.*") as $filename) {
     $p = pathinfo($filename);
     $out[] = $p["filename"];
 }
