@@ -4,3 +4,4 @@ foreach (glob("file/*.html") as $filename) {
     $out[] = $p["filename"];
 }
 echo json_encode($out); ?>;
+alert(files);
